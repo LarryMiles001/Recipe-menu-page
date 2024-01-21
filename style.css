@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: whitesmoke;
+    align-items: center;
+    padding: 20px 10px 30px 28px;
+    margin: 5px 0 100px 300px;
+    border-radius: 17px;
+    width: 700px;
+    height: 200vh;
+    justify-content: center;
+}
+
+.image img{
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.heads h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.heads p{
+    font-size: 14px;
+    padding-bottom: 19px;
+}
+
+.time{
+    background-color: pink;
+    width: 550px;
+    height: 18vh;
+    align-items: center;
+    padding: 10px 0 0 20px;
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+
+.time h3{
+    color: purple;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.time ul{
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.time ul li{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.dients{
+    margin-bottom: 20px;
+}
+
+.dients h2{
+    color: rgb(167, 64, 32);
+    padding-bottom: 12px;
+}
+
+.dients ul{
+    padding-left: 17px;
+    font-size: 15px;
+}
+
+.dients ul li{
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.tions{
+    margin-bottom: 20px;
+}
+
+.tions h2{
+    color: rgb(167, 64, 32);
+    padding-bottom: 12px;
+}
+
+.tions ol{
+    padding-left: 17px;
+}
+
+.tions ol li{
+    padding-left: 10px;
+    font-size: 15px;
+    padding-bottom: 6px;
+}
+
+.trits h2{
+    color: rgb(167, 64, 32);
+    padding: 15px 0;
+}
+
+.trits p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.st{
+    display: flex;
+    gap: 200px;
+    border-bottom: 1px solid;
+    width: 550px;
+}
+
+.st p{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.nd{
+    display: flex;
+    gap: 216px;
+    border-bottom: 1px solid;
+    width: 550px;
+}
+
+.nd p{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.rd{
+    display: flex;
+    gap: 207px;
+    border-bottom: 1px solid;
+    width: 550px;
+}
+
+.rd p{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.th{
+    display: flex;
+    gap: 234px;
+    border-bottom: 1px solid;
+    width: 550px;
+}
+
+.th p{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 400px){
+    header{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 240vh;
+    }
+
+    .image img{
+        width: 100%;
+    }
+
+    .heads h1{
+        font-size: 29px;
+        padding-left: 17px;
+    }
+    .heads p{
+        font-size: 13px;
+        padding: 10px;
+        padding-left: 18px;
+    }
+
+    .time{
+        width: 245px;
+        margin: 20px;
+        height: 20vh;
+        border-radius: 6px;
+    }
+    .time ul li{
+        padding-left: 6px;
+    }
+
+    .dients{
+        padding-left: 23px;
+    }
+
+    .tions{
+        padding: 10px;
+    }
+
+    .tions h2{
+        padding-left: 14px;
+    }
+
+    .tions ol{
+        padding: 25px;
+    }
+
+    .tions ol li{
+        font-size: 13px;
+        padding-left: 5px;
+    }
+
+    .trits h2{
+        padding-left: 25px;
+    }
+    .trits p{
+        font-size: 13px;
+        padding: 0 10px 20px 25px;
+    }
+
+    .st{
+        gap: 30px;
+        width: 270px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .st p{
+        padding-left: 40px;
+    }
+
+    .nd{
+        gap: 55px;
+        width: 270px;
+        padding-left: 10px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    
+    .rd{
+        margin-left: 10px;
+        gap: 45px;
+        width: 270px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+    .th{
+        margin-left: 10px;
+        gap: 68px;
+        width: 270px;
+        padding-left: 10px;
+    }
+}
